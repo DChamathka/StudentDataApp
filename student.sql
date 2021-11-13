@@ -32,7 +32,7 @@ DROP TABLE IF EXISTS `student`;
 CREATE TABLE IF NOT EXISTS `student` (
   `Id` int(15) NOT NULL AUTO_INCREMENT,
   `sName` varchar(50) NOT NULL,
-  `sAge` int(11) NOT NULL,
+  `sAge` int(2) NOT NULL,
   `sGrade` varchar(2) NOT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
